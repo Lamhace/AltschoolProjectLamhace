@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #4343431b;
+}
+
+.App {
+  text-align: center;
+}
+
+.count {
+  font-size: 60px;
+  font-weight: 600;
+  color: #0a0908;
+}
+
+.count-btn {
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  padding: 50px 50px;
+  background-color: #F9F9F9;
+  border-radius: 5px;
+}
+
+.btns {
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+}
+
+button {
+  font-family: 'Open Sans';
+  color: #ffffff;
+  text-transform: Capitalize;
+  text-decoration: none;
+  background: #ed3330;
+  padding: 20px 40px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+
+
+
+.Testerror button {
+  font-family: 'Open Sans';
+  color: #ffffff;
+  text-transform: Capitalize;
+  text-decoration: none;
+  background: #434343;
+  padding: 20px 40px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.Testerror button:hover {
+  background: #ed3330;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
